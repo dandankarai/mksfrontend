@@ -1,15 +1,11 @@
 import React from "react";
-// import ProductCard from "@/components/ProductCard";
 import { Header } from "@/components/Header";
-// import { ToastContainer } from "react-toastify";
 import api from "@/services/api";
-// import Footer from "@/components/Footer";
 import styled from "styled-components";
 import { useState } from "react";
 import { IProduct } from "@/utils/interfaces/interfaceProducts";
 import { useQuery } from "@tanstack/react-query";
-import { useEffect } from "react";
-import { Container } from "./style";
+import { Container } from "../../styles/style";
 import Card from "@/components/Card";
 import { useDispatch } from "react-redux";
 import { addCart, totalValue } from "@/slices/sliceProducts";
