@@ -1,9 +1,8 @@
 import { QueryClient } from "@tanstack/react-query";
 import { useEffect } from "react";
 import { Provider, useDispatch, useSelector } from "react-redux";
-import Home from "./Pages/Home";
+import Home from "./pages/Home";
 import { totalValue } from "./slices/sliceProducts";
-// import Dashboard from "./pages/Dashboard/Dashboard";
 import { RootState, store } from "./store";
 import Global from "./styles/global";
 
