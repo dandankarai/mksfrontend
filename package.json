@@ -6,19 +6,41 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.2",
+    "@tanstack/react-query": "^5.8.2",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.13",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "animate.css": "^4.1.1",
+    "axios": "^1.2.6",
+    "next": "13.1.5",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.2"
+    "react-hot-toast": "^2.4.0",
+    "react-icons": "^4.7.1",
+    "react-loading-skeleton": "^3.1.0",
+    "react-redux": "^8.0.5",
+    "react-toastify": "^9.1.1",
+    "styled-components": "^5.3.6",
+    "web-vitals": "^2.1.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tanstack/eslint-plugin-query": "^5.6.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/styled-components": "^5.1.26",
+    "axios-mock-adapter": "^1.21.2",
     "eslint": "^8",
-    "eslint-config-next": "14.0.2"
+    "eslint-config-next": "14.0.2",
+    "typescript": "^5"
   }
 }
